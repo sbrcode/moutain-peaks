@@ -6,8 +6,10 @@
 <ul>
   <li>python -m pip install Django</li>
   <li>django-admin startproject apirest</li>
-  <li>python manage.py runserver</li>
   <li>python manage.py startapp polls</li>
+  <li>python manage.py migrate</li>
+  <li>python manage.py makemigrations polls</li>
+  <li>python manage.py migrate</li>
 </ul>
 
 ## execution
