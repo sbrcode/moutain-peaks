@@ -6,3 +6,5 @@ class PeakLocation(models.Model):
     lat = models.IntegerField(default=0)
     lon = models.IntegerField(default=0)
     altitude = models.IntegerField(default=0)
+    def __str__(self):
+        return self.name
