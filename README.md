@@ -10,6 +10,7 @@
   <li>python manage.py migrate</li>
   <li>python manage.py makemigrations polls</li>
   <li>python manage.py migrate</li>
+  <li>python manage.py createsuperuser</li>
 </ul>
 
 ## execution
