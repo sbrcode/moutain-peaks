@@ -11,6 +11,7 @@
   <li>python manage.py makemigrations polls</li>
   <li>python manage.py migrate</li>
   <li>python manage.py createsuperuser</li>
+  <li>.mode csv; .separator ";"; .import peaks_location.csv polls_peaklocation;</li>
 </ul>
 
 ## execution
