@@ -6,12 +6,12 @@
 <ul>
   <li>python -m pip install Django</li>
   <li>django-admin startproject apirest</li>
-  <li>python manage.py startapp polls</li>
+  <li>python manage.py startapp peaks</li>
   <li>python manage.py migrate</li>
-  <li>python manage.py makemigrations polls</li>
+  <li>python manage.py makemigrations peaks</li>
   <li>python manage.py migrate</li>
   <li>python manage.py createsuperuser</li>
-  <li>.mode csv; .separator ";"; .import peaks_location.csv polls_peaklocation;</li>
+  <li>.mode csv; .separator ";"; .import peaks_location.csv peaks_peaklocation;</li>
 </ul>
 
 ## execution
