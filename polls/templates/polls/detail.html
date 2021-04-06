@@ -8,11 +8,9 @@
     <div>
       <h1>{{ peaklocation.name }}</h1>
       <ul>
-      <!-- {% for item in peaklocation.lat_set.all %} -->
-          <li>{{ peaklocation.lat }}</li>
-          <li>{{ peaklocation.lon }}</li>
-          <li>{{ peaklocation.altitude }}</li>
-      <!-- {% endfor %} -->
+        <li>Lat: {{ peaklocation.lat }}</li>
+        <li>Long: {{ peaklocation.lon }}</li>
+        <li>Alt: {{ peaklocation.altitude }} m</li>
       </ul>
     </div>
   </body>
