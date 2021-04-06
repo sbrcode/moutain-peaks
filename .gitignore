@@ -131,3 +131,4 @@ dmypy.json
 # sqlite3
 sql*
 polls/migrations/
+peaks_location.csv
