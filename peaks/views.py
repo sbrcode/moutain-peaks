@@ -6,13 +6,13 @@ from django.template import loader
 
 def index(request):
     peaklocation_list = PeakLocation.objects.all()
-    template = loader.get_template('polls/index.html')
+    template = loader.get_template('peaks/index.html')
     context = {
         'peaklocation_list': peaklocation_list,
     }
     # return HttpResponse(template.render(context, request))
-    return render(request, 'polls/index.html', context)
+    return render(request, 'peaks/index.html', context)
 
 def detail(request, peaklocation_id):
     peaklocation = get_object_or_404(PeakLocation, pk=peaklocation_id)
-    return render(request, 'polls/detail.html', {'peaklocation': peaklocation})
+    return render(request, 'peaks/detail.html', {'peaklocation': peaklocation})

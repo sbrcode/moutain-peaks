@@ -1,6 +1,6 @@
 from django.db import models
 
-
+# Create your models here.
 class PeakLocation(models.Model):
     name = models.CharField(max_length=200)
     lat = models.FloatField(default=0)
